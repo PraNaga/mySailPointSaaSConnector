@@ -14,18 +14,19 @@
 					"type": "section",				
 					"sectionHelpMessage": "Provide connection parameters to interact securely with the target application.",
 					"items": [
-						{
-							"key": "apiKey",
-							"type": "text",
-							"label": "API Key",
-							"required": true
-						},
+						
 						{
 							"key": "baseUrl",
 							"type": "text",
 							"label": "Base URL",
 							"helpText": "Base URL of the myApp instance",
 							"placeholder": "https://mydomain.com",
+							"required": true
+						},
+						{
+							"key": "apiKey",
+							"type": "text",
+							"label": "API Key",
 							"required": true
 						}
 					]

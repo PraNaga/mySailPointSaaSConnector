@@ -35,6 +35,7 @@ export const connector = async () => {
                     identity: account.id ? account.id.toString() : '',
                     uuid: account.id ? account.id.toString() : '',
                     attributes: {
+                        id: account.id,
                         firstName: account.firstName,
                         lastName: account.lastName,
                         email: account.email,
